@@ -1,0 +1,19 @@
+/* Reset some default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the logo vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the container fill the entire viewport height */
+}
+
+/* Style the logo (you can adjust these styles as needed) */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
